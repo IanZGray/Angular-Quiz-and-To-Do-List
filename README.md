@@ -8,8 +8,5 @@ Angular, TypeScript, CSS
 
 ## Deployment
 
-To use this, fork this repository with Angular installed locally, and run ng serve. 
-# Angular-Quiz-and-To-Do-List
-# Angular-Quiz-and-To-Do-List
-# Angular-Quiz-and-To-Do-List
-# Angular-Quiz-and-To-Do-List
+To use this, fork this repository with Angular installed locally, install the node modules, and run ng serve. 
+
