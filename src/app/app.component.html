@@ -1,0 +1,19 @@
+<h1>Quiz</h1>
+<p>{{currentQuestion.question}}</p>
+<input type="text" [(ngModel)]="answerText">
+<button (click)="answer()">Final Answer</button>
+
+<h1>To-Do List</h1>
+<input [(ngModel)]="currentItem" type="text">
+<button (click)="add()" >ADD</button>
+<article>
+  <div
+    *ngFor="let item of items; let index = index"
+    (click)="remove(index)"
+  >
+    {{index + 1}}) {{item}}
+  </div>
+</article>
+
+
+
